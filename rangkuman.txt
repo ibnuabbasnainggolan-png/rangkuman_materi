@@ -39,3 +39,22 @@
   * git push -u origin main : Mem-push commit lokal ke remote GitHub.
   * git clone <URL> : Mengkloning repository yang ada di GitHub ke lokal.
   * git pull : Mendownload dan menggabungkan perubahan dari remote ke branch lokal.
+
+  4. SINTAKS DASAR MARKDOWN (.md)
+- Heading / Judul:
+  # Judul 1
+  ## Judul 2
+  ### Judul 3
+- Format Teks:
+  * **Teks Bolds/Tebal**
+  * *Teks Miring/Italic*
+  * ~~Teks Dicoret/Strikethrough~~
+- List / Daftar:
+  * Ordered List: 1. Pertama  2. Kedua
+  * Unordered List: - Baris 1  - Baris 2
+- Tautan & Gambar:
+  * Link: [Teks Link](URL)
+  * Gambar: ![Alt Teks](URL_Gambar)
+- Blok Source Code:
+  ```html
+  <h1>Hello World</h1>
