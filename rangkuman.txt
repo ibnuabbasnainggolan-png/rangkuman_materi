@@ -1,0 +1,33 @@
+1. VERSION CONTROL & GIT
+ Version Control: Praktik pelacakan dan pengelolaan perubahan file dari waktu ke waktu.
+- Jenis VCS:
+  1. VCS Lokal (misal: RCS)
+  2. VCS Terpusat / Client-Server (misal: CVS, Subversion)
+  3. VCS Terdistribusi / Peer-to-Peer (misal: Git, Mercurial)
+- Kegunaan Utama Git:
+  * Pelacakan riwayat perubahan (melihat siapa, kapan, dan alasan perubahan).
+  * Kolaborasi jarak jauh tanpa saling menimpa kode.
+  * Fitur Branching (pencabangan) dan Merging (penggabungan).
+
+2. DOSAR-DASAR PERINTAH GIT
+- Inisialisasi & Konfigurasi:
+  * git config --global user.name "Nama Anda"
+  * git config --global user.email "email@contoh.com"
+  * git config --global init.defaultBranch main
+  * git init : Mengubah folder saat ini menjadi repository Git lokal.
+
+- Status File & Staging Area:
+  * Status File: untracked, unmodified, modified, staged.
+  * git status : Memeriksa status file di repository.
+  * git add <file> : Menambahkan file ke staging area (contoh: git add .).
+  * .gitignore : File untuk mencantumkan daftar file/folder yang diabaikan Git.
+
+- Commit & Riwayat:
+  * git commit -m "pesan commit" : Menyimpan snapshot perubahan dengan pesan khusus.
+  * git log : Melihat riwayat commit.
+  * git log --oneline : Melihat riwayat commit secara ringkas.
+
+- Pembatalan (Reset):
+  * git reset : Membatalkan penambahan file ke staging area.
+  * git reset HEAD~1 : Membatalkan commit terakhir (perubahan file tetap ada).
+  * git reset --hard HEAD~1 : Membatalkan commit terakhir dan menghapus perubahannya.
