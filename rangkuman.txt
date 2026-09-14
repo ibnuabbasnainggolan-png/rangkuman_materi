@@ -31,3 +31,11 @@
   * git reset : Membatalkan penambahan file ke staging area.
   * git reset HEAD~1 : Membatalkan commit terakhir (perubahan file tetap ada).
   * git reset --hard HEAD~1 : Membatalkan commit terakhir dan menghapus perubahannya.
+
+  3. GITHUB & REMOTE REPOSITORY
+ GitHub: Platform berbasis web untuk meng-hosting repository Git.
+- Menghubungkan Repository Lokal ke GitHub:
+  * git remote add origin <URL_REPOSITORY_GITHUB>
+  * git push -u origin main : Mem-push commit lokal ke remote GitHub.
+  * git clone <URL> : Mengkloning repository yang ada di GitHub ke lokal.
+  * git pull : Mendownload dan menggabungkan perubahan dari remote ke branch lokal.
